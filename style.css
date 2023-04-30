@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box}
+body {
+margin-left: 0px;
+margin-top: 0px;}
+/* navigation side bar*/
+#bar{align-content: center;
+	position:inherit;
+	
+}
+/* formatting navaigation bar*/
+
+ul{
+	  list-style-type:none;
+  margin-top: 0;
+  padding: 30;
+  width: 25%;
+  background-color: #340015;
+  position:fixed;
+  height: 100%;
+  overflow: auto;
+}
+              /*Text color on hyperlinks of navigation bar*/
+li a {
+  display: block;
+  color: #F2CCE6;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+
+
+
+
+li a:hover:not(.active) {
+  background-color: #555;
+	color: white;}
+            /*Header*/
+h1{
+    background: #340015;
+    background-size: 75%;
+    height: 25%;
+    padding-left: 25%;
+    font-size: 400%;
+    margin-left: 25%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;  
+}  
+h2{
+    background: white;
+    background-size: 75%;
+    height: 25%;
+    padding-left: 1%;
+    font-size: 400%;
+    margin-left: 25%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color:black;  
+}  
+p{
+    background: white;
+    background-size: 15%;
+    height: 15%;
+    padding-left: 25%;
+    font-size: 40%;
+    margin-left: 25%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:black;  
+}  
+
+body{
+	margin: 0;
+	padding:0;
+	background-size:1800px;
+	height:500px;}
+#main{
+	width:100%;
+	height:100px;}
+      /*   format for form header*/
+
+
+
+
+.images{
+	width: 200px;
+	
+}
+
+
+/*  picture insite about us page*/
+
+#aboutus{margin-left: 0px;
+width:80% ;
+padding-left: 40px;
+padding-top: 40px;
+}
+
+
+
+.title{padding-left:40px;}
+/*Search flights button con Contact Us page*/
+
+
+
+
+.row{display:flex;}
+/* create the equal columns that sits next to each other */
+.column{flex:33.33%;
+	padding:5px}
+
+
+
+
+
+.responsive{
+	width:50%;
+	height:auto;
+    margin-left: 25%;
+}
